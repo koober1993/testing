@@ -1,0 +1,53 @@
+#main1{
+    height: 300px;
+    width: 300px;
+    background-color:yellow;
+    margin: 20px;
+    animation: 5s linear testing;
+}
+#main2{
+    height: 300px;
+    width: 300px;
+    background-color: blue; 
+    margin: 20px;
+    animation: 5s linear testing;
+
+}
+#main3{
+background-color: green;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    animation: 5s linear testing;
+}
+#container {
+    display: inline-flex;
+    margin-left: 100px;
+  
+}
+
+/* animation css */
+
+/* #animation-here {
+
+    width: 200px;
+    height: 70px;
+    animation: 5s linear loading-here;
+    background-color: green;
+} */
+
+@keyframes testing {
+    0% {
+        transform: rotate(90deg);
+    }
+    25s% {
+        transform: rotate(180deg);
+    }
+    5s0% {
+        transform: rotate(270deg);
+    }
+    75s% {
+        transform: rotate(360deg);
+    }
+
+}
